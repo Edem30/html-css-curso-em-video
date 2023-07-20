@@ -22,12 +22,22 @@
 *{
     margin:0px ;
     padding: 0px;
+    
 }
 
 body{ background-color: var(--cor0);
     font-family: var(--font-padrao);
 
 }
+a. externo: :after {
+    content: '\00\0\1f517';
+}
+
+header{ 
+    background-image: linear-gradient(to bottom,var(--cor3), var(--cor5));
+}
+
+
 header> h1{
     color: var;
     font-family: var(--font-destaque);
